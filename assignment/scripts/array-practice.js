@@ -104,3 +104,5 @@ console.log(`I hope this reverses my list: ${favoriteFoods}`);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let newArray = [`${favoriteFoods}, ${animalArray}`];
+console.log('I wonder if this worked', newArray);
